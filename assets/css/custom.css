@@ -175,3 +175,12 @@ body {
     background-color: #0c1d37;
     color: #fff;
 }
+
+.navbar-dark .navbar-brand {
+    color: #fff;
+    padding-right: 15px;
+    padding-left: 100px;
+    padding-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+}
