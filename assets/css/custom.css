@@ -23,6 +23,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 .heading {
     font-family: "DM Sans",sans-serif;
+    color: #0c1d37
 }
 
 h1 {
@@ -53,6 +54,11 @@ h4 {
     line-height: 117%;
     font-weight: 700;
     letter-spacing: -0.7px;
+}
+
+
+h6{
+   color: #0c1d37
 }
 
 body {
@@ -185,4 +191,25 @@ body {
     margin-left: auto;
 }
 
+.green-bar{
+    margin-bottom: 8px;
+    width: 64px;
+    background: #68BB4E;
+    border-radius: 8px 8px 0px 0px;
+    height: 175px
+}
 
+.grey-bar{
+    margin-bottom: 8px;
+    width: 64px;
+    background: grey;
+    border-radius: 8px 8px 0px 0px;
+    height: 85px
+}
+
+.bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
